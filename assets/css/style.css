@@ -6,7 +6,6 @@ body {
 .bg-custom-dark {
   background-color: black;
   padding: auto 10px;
-  /* height: 60px; */
 }
 
 #aboutme, #connect {
@@ -59,12 +58,6 @@ html {
 }
 
  .column {
- /* float: left;
-  width: 33%;
-  left: 20%;
-  padding: 5px;
-  position: relative;
-  z-index: 999;*/
   margin-bottom: 10px;
 } 
 
