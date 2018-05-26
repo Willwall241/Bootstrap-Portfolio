@@ -1,16 +1,30 @@
-
-
 body {
   background-image: url(../images/what-the-hex-dark.png);
   margin-bottom: 60px;
 }
 
-#aboutme {
-  color: white;
+.bg-custom-dark {
+  background-color: black;
+  padding: auto 10px;
+  /* height: 60px; */
 }
 
-#aboutme h1 {
-  border-bottom: 1px solid white;
+#aboutme, #connect {
+  color: #f9f9ff;
+  padding: 10px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+#aboutme h1, #connect h1 {
+  font-size: 24px;
+  border-bottom: 1px solid #f9f9ff;
+  padding: 10px;
+}
+
+#connect {
+  height: fit-content;
+  width: 100%;
 }
 
 .border {
@@ -26,7 +40,45 @@ html {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #343a40;
+  height: 50px;
+  line-height: 50px;
+  background-color: black;
+}
+
+#myPic {
+  float: left;
+  padding: 10px;
+}
+
+.social {
+  width: 78px;
+  height: 78px;
+  margin-top: 8px;
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+ .column {
+ /* float: left;
+  width: 33%;
+  left: 20%;
+  padding: 5px;
+  position: relative;
+  z-index: 999;*/
+  margin-bottom: 10px;
+} 
+
+.project-1,
+.project-2,
+.project-3,
+.project-4,
+.project-5 {
+    position: absolute;
+    top: 165px;
+    background-color: rgb(54, 54, 54);
+    width: 275px;
+    text-align: center;
+    z-index: 998;
+    height: 25px;
+    padding-top: 5px;
 }
