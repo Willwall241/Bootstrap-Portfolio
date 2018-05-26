@@ -11,7 +11,7 @@ body {
 #aboutme, #connect {
   color: #f9f9ff;
   padding: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   box-sizing: border-box;
 }
 
@@ -19,6 +19,7 @@ body {
   font-size: 24px;
   border-bottom: 1px solid #f9f9ff;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 #aboutme p {
@@ -62,7 +63,7 @@ html {
 }
 
  .column {
-  margin-bottom: 10px;
+  margin-bottom: 80px;
 } 
 
 .project-1,
@@ -81,3 +82,8 @@ html {
   height: 30px;
   /* padding-top: 5px; */
 }
+
+.column>a:hover {    
+  box-shadow: 0px -25px 400px 25px rgba(255, 255, 255, 0.67);
+}
+
