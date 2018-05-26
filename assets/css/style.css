@@ -70,12 +70,14 @@ html {
 .project-3,
 .project-4,
 .project-5 {
-    position: absolute;
-    top: 165px;
-    background-color: rgb(54, 54, 54);
-    width: 275px;
-    text-align: center;
-    z-index: 998;
-    height: 25px;
-    padding-top: 5px;
+  color: #f9f9ff;
+  text-decoration: none;
+  position: absolute;
+  top: 165px;
+  background-color: black;
+  width: 275px;
+  text-align: center;
+  z-index: 998;
+  height: 30px;
+  /* padding-top: 5px; */
 }
